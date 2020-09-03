@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { APP_NAME } from 'src/app/models/constans';
+
+import { APP_NAME } from '../../models/constans';
 
 @Component({
   selector: 'app-nav-bar',

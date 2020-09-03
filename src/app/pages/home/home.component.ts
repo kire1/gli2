@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-
-import { ILeague } from 'src/app/models/league';
-import { APP_NAME } from 'src/app/models/constans';
-import { LeagueService } from 'src/app/services/league.service';
 import { Observable } from 'rxjs';
+
+import { ILeague } from '../../models/league';
+import { APP_NAME } from '../..//models/constans';
+import { LeagueService } from '../../services/league.service';
 
 @Component({
   selector: 'app-home',
