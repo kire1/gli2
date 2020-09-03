@@ -1,0 +1,18 @@
+<div class="home">
+    <div class="create-league">
+        <div class="title">Welcome to {{ title }}</div>
+        <div class="content">
+            <p>To get started create a league to manage your Golf League's schedule, scores, and stats.</p>
+            <button mat-flat-button color="primary" [routerLink]="['/create']">Create League</button>
+        </div>
+    </div>
+    <div class="select-league">
+        <div class="title">Golf Leagues</div>
+        <div class="content">
+            <button mat-flat-button *ngFor="let league of leagues$ | async" [routerLink]="['/league', league.id]"
+                color="primary">
+                {{ league.name }}
+            </button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,18 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+.home-btn {
+    font-size: 18px;
+}
+
+.home-btn span > i {
+    margin-right: 10px;
+}
+
+.mat-toolbar {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 10000;
+}

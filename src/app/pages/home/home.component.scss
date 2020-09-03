@@ -1,0 +1,41 @@
+@import "src/colors.scss";
+
+.home {
+  background-color: lightblue;
+  font-size: 18px;
+}
+
+.create-league,
+.select-league {
+  text-align: center;
+  padding: 25px;
+}
+
+.create-league {
+  .content {
+    button {
+      margin-top: 10px;
+    }
+  }
+}
+
+.select-league {
+  background-color: white;
+
+  .content {
+    button {
+      color: $deeppurple;
+      background-color: white;
+      border-radius: 5px;
+      border: 1px solid $deeppurple;
+      margin: 5px;
+    }
+
+    button:hover {
+      cursor: pointer;
+      color: #ffffff;
+      border-radius: 5px;
+      background-color: $deeppurple;
+    }
+  }
+}
