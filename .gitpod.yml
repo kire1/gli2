@@ -1,6 +1,5 @@
-image:
-  file: .gitpod.Dockerfile
+image: gitpod/workspace-dotnet
 
 tasks:
   - init: npm install && npm run build
-    command: npm install && npm run start
+    command: npm run start
